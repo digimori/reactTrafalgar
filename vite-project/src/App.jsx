@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import OurServices from './components/OurServices';
+import OurServices from './components/Services/OurServices';
 import LeadingProviders from './components/LeadingProviders';
 import DownloadMobApp from './components/DownloadMobileApp/DownloadMobApp';
 import Testimonials from './components/Testimonials';
