@@ -7,13 +7,13 @@ import './NavigationBar.css';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="lg" className="p__muli" data-bs-theme="light">
+    <Navbar expand="lg" className="p__muli-active" data-bs-theme="light">
       <Container>
         <Navbar.Brand href="#home"><img src={images.logo} alt="logo" className="nav__logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="mb-auto nav__links">
-            <Nav.Link href="#home" className='p__muli-active'>Home</Nav.Link>
+            <Nav.Link href="#home" className='p__muli-active_home'>Home</Nav.Link>
             <Nav.Link href="#find">Find a doctor</Nav.Link>
             <Nav.Link href="#apps">Apps</Nav.Link>
             <Nav.Link href="#testimonials">Testimonials</Nav.Link>

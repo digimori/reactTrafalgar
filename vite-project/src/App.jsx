@@ -7,6 +7,7 @@ import LatestArticles from './components/Articles/LatestArticles';
 import Footer from './components/Footer';
 import NavigationBar from './components/Navigation/NavigationBar';
 import './App.css'
+import Header from './components/Header/Header';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <NavigationBar />
+      <Header />
       <OurServices />
       <LeadingProviders />
       <DownloadMobApp />

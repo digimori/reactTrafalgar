@@ -2,8 +2,6 @@
 .nav__logo {
     width: 160px;
     height: 41px;
-    top: 56px;
-    left: 191px;
   }
 
 .nav__links {
@@ -19,3 +17,22 @@
     margin: 0 1rem;
 }
 
+.p__muli-active {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 22px;
+    font-size: 1.1rem;
+  }
+  
+  .p__muli-active_home {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 22px;
+    font-size: 1.1rem;
+  }

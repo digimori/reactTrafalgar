@@ -4,22 +4,13 @@
 .p__muli {
   font-family: var(--font-base);
   color: var(--color-black);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.04em;
   font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 22px;
-  font-size: 1.1rem;
+  line-height: 32px;
+  font-size: 1.3rem;
 }
 
-.p__muli-active {
-  font-family: var(--font-base);
-  color: var(--color-black);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 22px;
-  font-size: 1.1rem;
-}
 
 /* Header text - h1 */
 .headtext__muli {
@@ -27,6 +18,7 @@
   color: var(--color-black);
   font-size: 3rem;
   line-height: 56px;
+  font-weight: 700;
   letter-spacing: 0.04em;
 }
 
@@ -46,4 +38,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.top__margin {
+  margin-top: 84px; 
 }
