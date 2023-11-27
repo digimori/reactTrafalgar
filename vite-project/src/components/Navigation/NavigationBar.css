@@ -1,0 +1,21 @@
+/* Logo */
+.nav__logo {
+    width: 160px;
+    height: 41px;
+    top: 56px;
+    left: 191px;
+  }
+
+.nav__links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    cursor:pointer;
+}
+
+.nav-link {
+    margin: 0 1rem;
+}
+

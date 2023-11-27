@@ -1,17 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
 import OurServices from './components/OurServices';
 import LeadingProviders from './components/LeadingProviders';
-import DownloadMobApp from './components/DownloadMobApp';
+import DownloadMobApp from './components/DownloadMobileApp/DownloadMobApp';
 import Testimonials from './components/Testimonials';
-import LatestArticles from './components/LatestArticles';
+import LatestArticles from './components/Articles/LatestArticles';
 import Footer from './components/Footer';
+import NavigationBar from './components/Navigation/NavigationBar';
+import './App.css'
+
 
 function App() {
 
   return (
     <div>
-      <Navbar />
+      <NavigationBar />
       <OurServices />
       <LeadingProviders />
       <DownloadMobApp />

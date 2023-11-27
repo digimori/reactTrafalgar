@@ -8,7 +8,7 @@ import articleimg1 from '../assets/images/img1.png';
 import articleimg2 from '../assets/images/image 2.png';
 import articleimg3 from '../assets/images/image 3.png';
 import logo from '../assets/images/logo.png';
-import onlinePharm from '../assets/images/onlinePharm';
+import onlinePharm from '../assets/images/onlinePharm.png';
 import tracker from '../assets/images/tracker.png';
 import sectionimg1 from '../assets/images/trafalgar-illustration sec02 1.png';
 import sectionimg2 from '../assets/images/trafalgar-illustration sec03 1.png';

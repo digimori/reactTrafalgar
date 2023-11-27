@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+    --font-base: 'Mulish', serif;
+    
+    --color-black: #0C0C0C;
+    --color-grey: #AAAAAA;
+    --color-white: #FFFFFF;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    color: unset;
+    text-decoration: none;
+  }
