@@ -8,7 +8,7 @@ import Separator from "../Separator";
 
 const LeadingProviders = () => {
   return (
-    <Container>
+    <Container style={{ margin: "60px auto" }}>
       <Row className="justify-content-center">
         <Col className="col-md-6">
           <img src={sectionimg1} alt="section image" className="sectionimg1" />
@@ -16,7 +16,7 @@ const LeadingProviders = () => {
         <Col className="col-md-4 offset-2">
           <h2 className="h2__muli">Leading healthcare providers</h2>
           <Separator />
-          <p className="p__muli">
+          <p className="p__muli p__padding">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver

@@ -16,7 +16,6 @@ function App() {
       <NavigationBar />
       <Header />
       <OurServices />
-      <DefaultButton />
       <LeadingProviders />
       <DownloadMobApp />
       <Testimonials />

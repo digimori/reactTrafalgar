@@ -9,19 +9,19 @@ import { FaArrowDownLong } from "react-icons/fa6";
 
 const DownloadMobApp = () => {
   return (
-    <Container className="flex__center top__margin">
+    <Container className="flex__center" style={{ margin: "100px auto" }}>
       <Row className="justify-content-center">
-        <Col className="col-md-4 offset-2">
+        <Col className="col-md-4">
           <h2 className="h2__muli">Download our mobile apps</h2>
           <Separator className="separator" />
-          <p className="p__muli">
+          <p className="p__muli p__padding">
             Our dedicated patient engagement app and web portal allow you to
             access information instantaneously (no tedeous form, long calls, or
             administrative hassle) and securely
           </p>
           <DefaultButton text="Download" icons={<FaArrowDownLong />} />
         </Col>
-        <Col className="col-md-6">
+        <Col className="col-md-6 offset-2">
           <img src={sectionimg2} alt="section image" className="sectionimg2" />
         </Col>
       </Row>
