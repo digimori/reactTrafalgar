@@ -24,8 +24,8 @@
 
 .separator {
     width: 56px;
-    height: 2px;
+    height: 5px;
     border-radius: 5px;
     background-color: var(--color-black);
-    flex-wrap: wrap;
+    margin: 22px auto 33px auto;
 }
