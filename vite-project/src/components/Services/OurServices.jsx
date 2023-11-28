@@ -26,7 +26,7 @@ const OurServices = () => {
       <div className="services__overlay">
         <img src={background} alt="background" />
       </div>
-      <Row className="row">
+      <Row className="row card__parent">
         {services.map((item, index) => (
           <ServiceCards
             icon={item.icon}

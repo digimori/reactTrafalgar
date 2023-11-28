@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .section__services-text h2 {
@@ -33,4 +34,18 @@
 .services__overlay img {
     position: absolute;
     inset: 90% 0;
+    width: 55%;
+    height: 100%;
+}
+
+.card__container {
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    margin: 20px;
+    border: none;
+}
+
+.card__parent {
+    justify-content: center;
+    align-items: center;
 }

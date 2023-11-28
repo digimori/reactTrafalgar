@@ -4,7 +4,7 @@ import "./OurServices.css";
 
 const ServiceCards = ({ icon, title, desc }) => {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="card__container" style={{ width: "21rem", height: "22.12rem"}}>
       <Card.Body>
         <img src={icon} />
         <Card.Title>{title}</Card.Title>

@@ -8,6 +8,7 @@ import LatestArticles from "./components/Articles/LatestArticles";
 import Footer from "./components/Footer";
 import NavigationBar from "./components/Navigation/NavigationBar";
 import Header from "./components/Header/Header";
+import DefaultButton from "./components/Button";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NavigationBar />
       <Header />
       <OurServices />
+      <DefaultButton />
       <LeadingProviders />
       <DownloadMobApp />
       <Testimonials />
