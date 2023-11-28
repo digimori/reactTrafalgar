@@ -4,13 +4,7 @@ import "./OurServices.css";
 import Separator from "./Separator";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-
-const services = [
-  {
-    title: "Search Doctor",
-    desc: "Choose your doctor from thousands of specialist, general, and trusted hospitals",
-  },
-];
+import { services } from "../../constants/data.js";
 
 const OurServices = () => {
   return (
