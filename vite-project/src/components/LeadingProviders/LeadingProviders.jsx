@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import DefaultButton from "../Button";
 import sectionimg1 from "../../assets/images/trafalgar-illustrationsec021.png";
 import Separator from "../Separator";
-import "./LeadingProviders.css";
 
 const LeadingProviders = () => {
   return (

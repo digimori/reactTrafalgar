@@ -13,8 +13,13 @@ const OurServices = () => {
     <Container className="top__margin section__container">
       <Row className="section__services-text">
         <h2 className="col-12 h2__muli">Our services</h2>
-        <Row>
-          <Separator color="#000" className="separator col-12" />
+        <Row className="justify-content-center">
+          <Separator
+            className="separator col-12"
+            style={{
+              margin: "22px auto 33px auto",
+            }}
+          />
         </Row>
         <p className="row p__muli">
           We provide to you the best choices for you. Adjust it to your health

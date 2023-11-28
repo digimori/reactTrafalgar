@@ -13,7 +13,7 @@ const DefaultButton = (props) => {
         borderRadius: "55px",
       }}
     >
-      {props.text}
+      {props.text} {props.icons}
     </Button>
   );
 };

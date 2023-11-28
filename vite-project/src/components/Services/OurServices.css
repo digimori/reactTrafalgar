@@ -17,16 +17,12 @@
 }
 
 .separator {
-    width: 56px;
-    height: 5px;
-    border-radius: 5px;
-    background-color: var(--color-black);
-    margin: 22px auto 33px auto;
+    background-color: #000000;
 }
 
 .services__overlay img {
     position: absolute;
-    inset: 90% 0;
+    inset: 100% 0;
     width: 55%;
     height: 100%;
 }
