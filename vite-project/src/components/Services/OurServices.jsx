@@ -5,10 +5,11 @@ import Separator from "./Separator";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { services } from "../../constants/data.js";
+import background from "../../assets/images/bgelement.png";
 
 const OurServices = () => {
   return (
-    <Container className="top__margin">
+    <Container className="top__margin section__container">
       <Row className="section__services-text">
         <h2 className="col-12">Our services</h2>
         <Row>
@@ -21,6 +22,10 @@ const OurServices = () => {
           your health
         </p>
       </Row>
+
+      <div className="services__overlay">
+        <img src={background} alt="background" />
+      </div>
       <Row className="row">
         {services.map((item, index) => (
           <ServiceCards

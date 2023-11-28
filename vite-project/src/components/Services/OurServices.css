@@ -29,3 +29,8 @@
     background-color: var(--color-black);
     margin: 22px auto 33px auto;
 }
+
+.services__overlay img {
+    position: absolute;
+    inset: 90% 0;
+}

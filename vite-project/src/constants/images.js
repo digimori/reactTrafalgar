@@ -1,4 +1,4 @@
-import bg from '../assets/images/bg element.png';
+import bg from '../assets/images/bgelement.png';
 import consultation from '../assets/images/consultation.png';
 import details from '../assets/images/details.png';
 import elementDots from '../assets/images/element.png';

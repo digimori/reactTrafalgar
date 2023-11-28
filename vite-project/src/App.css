@@ -43,3 +43,8 @@
 .top__margin {
   margin-top: 84px; 
 }
+
+/* Images */
+.services__container {
+  background-image: url('../../assets/images/bg\ element.png');
+}
