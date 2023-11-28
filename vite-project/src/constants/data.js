@@ -1,4 +1,4 @@
-import * as images from './images.js';
+import images from './images.js';
 
 export const services = [
     {
@@ -33,4 +33,4 @@ export const services = [
     },
 ]
 
-export default services
+export default {images, services}

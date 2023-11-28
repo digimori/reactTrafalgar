@@ -2,13 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "./OurServices.css";
 
-
-const ServiceCards = ({ title }) => {
+const ServiceCards = ({ icon, title, desc }) => {
   return (
     <Card style={{ width: "18rem" }}>
       <Card.Body>
+        <img src={icon} />
         <Card.Title>{title}</Card.Title>
-        <Card.Text>{}</Card.Text>
+        <Card.Text>{desc}</Card.Text>
       </Card.Body>
     </Card>
   );

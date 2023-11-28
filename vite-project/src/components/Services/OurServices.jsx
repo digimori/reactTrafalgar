@@ -23,7 +23,12 @@ const OurServices = () => {
       </Row>
       <Row className="row">
         {services.map((item, index) => (
-          <ServiceCards title={item.title} key={item.title + index} />
+          <ServiceCards
+            icon={item.icon}
+            title={item.title}
+            desc={item.desc}
+            key={item.title + index}
+          />
         ))}
 
         {/* Map over cards from ServiceCards here - Remember Prop passing*/}
