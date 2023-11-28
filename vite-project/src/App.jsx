@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import OurServices from "./components/Services/OurServices";
-import LeadingProviders from "./components/LeadingProviders";
+import LeadingProviders from "./components/LeadingProviders/LeadingProviders";
 import DownloadMobApp from "./components/DownloadMobileApp/DownloadMobApp";
 import Testimonials from "./components/Testimonials";
 import LatestArticles from "./components/Articles/LatestArticles";

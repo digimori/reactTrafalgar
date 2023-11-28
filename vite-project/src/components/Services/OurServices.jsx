@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { services } from "../../constants/data.js";
 import background from "../../assets/images/bgelement.png";
+import DefaultButton from "../Button.jsx";
 
 const OurServices = () => {
   return (
@@ -37,6 +38,13 @@ const OurServices = () => {
         ))}
 
         {/* Map over cards from ServiceCards here - Remember Prop passing*/}
+      </Row>
+
+      <Row
+        className="justify-content-center"
+        style={{ padding: "40px", margin: "20px" }}
+      >
+        <DefaultButton text="Learn more" />
       </Row>
     </Container>
   );

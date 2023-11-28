@@ -10,8 +10,8 @@ import articleimg3 from '../assets/images/image 3.png';
 import logo from '../assets/images/logo.png';
 import onlinePharm from '../assets/images/onlinePharm.png';
 import tracker from '../assets/images/tracker.png';
-import sectionimg1 from '../assets/images/trafalgar-illustration sec02 1.png';
-import sectionimg2 from '../assets/images/trafalgar-illustration sec03 1.png';
+import sectionimg1 from '../assets/images/trafalgar-illustrationsec021.png';
+import sectionimg2 from '../assets/images/trafalgar-illustrationsec031.png';
 import searchDoc from '../assets/images/searchdoc.png'
 
 export default {

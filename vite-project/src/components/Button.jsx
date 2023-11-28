@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-const DefaultButton = () => {
+const DefaultButton = (props) => {
   return (
     <Button
       style={{
@@ -13,7 +13,7 @@ const DefaultButton = () => {
         borderRadius: "55px",
       }}
     >
-      PROP THIS
+      {props.text}
     </Button>
   );
 };
