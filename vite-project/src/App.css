@@ -8,9 +8,18 @@
   letter-spacing: 0.04em;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 32px;
-  font-size: 1.3rem;
+  font-size: 1.125rem;
 }
 
+.h2__muli {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 56px;
+  font-size: 2.25rem;
+}
 
 /* Header text - h1 */
 .headtext__muli {
