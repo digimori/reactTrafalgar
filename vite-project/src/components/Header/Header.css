@@ -1,23 +1,23 @@
 .section__image img {
-    width: 693px;
-    height: 598px;
-    flex-shrink: 0;
+  width: 693px;
+  height: 598px;
+  flex-shrink: 0;
 }
 
 .section__header-text {
-    width: 445px;
-    height: 338px;
-    flex-shrink: 0;
-    margin-right: 100px;
+  width: 445px;
+  height: 338px;
+  flex-shrink: 0;
+  margin-right: 100px;
 }
 
 .section__header-button {
-    background-color: #458FF6;
-    color: var(--color-white);
-    font-family: var(--font-base);
-    font-weight: 500;
-    letter-spacing: 1.3px;
-    width: 200px;
-    height: 56px;
-    border-radius: 55px;
+  background-color: #458ff6;
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
 }

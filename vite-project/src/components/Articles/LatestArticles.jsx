@@ -45,7 +45,7 @@ const LatestArticles = () => {
           />
         ))}
       </Row>
-      <Row>
+      <Row className="justify-content-center align-items-center my-4">
         <DefaultButton text="View all" />
       </Row>
     </Container>

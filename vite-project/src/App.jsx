@@ -5,10 +5,9 @@ import LeadingProviders from "./components/LeadingProviders/LeadingProviders";
 import DownloadMobApp from "./components/DownloadMobileApp/DownloadMobApp";
 import Testimonials from "./components/Testimonials";
 import LatestArticles from "./components/Articles/LatestArticles";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import NavigationBar from "./components/Navigation/NavigationBar";
 import Header from "./components/Header/Header";
-import DefaultButton from "./components/Button";
 
 function App() {
   return (
