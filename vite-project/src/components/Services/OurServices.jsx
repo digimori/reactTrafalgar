@@ -41,8 +41,6 @@ const OurServices = () => {
             key={item.title + index}
           />
         ))}
-
-        {/* Map over cards from ServiceCards here - Remember Prop passing*/}
       </Row>
 
       <Row
