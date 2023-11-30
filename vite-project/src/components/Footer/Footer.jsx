@@ -9,17 +9,19 @@ const Footer = () => {
   return (
     <Container className="footer__container">
       <Row className="pt-5">
-        <Col className="col-md-5 text-center">
+        <Col className="col-md-5 my-3 px-5">
           <img src={logo} alt="logo" />
-          <p>
+          <p className="p__muli text-white">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+          <p className="p__muli text-white">
+            ©Trafalgar PTY LTD 2020. All rights reserved
+          </p>
         </Col>
-        <Col className="col-md-3 text-left">
+        <Col className="col-md-3 text-left footer__container-sections">
           <h3>Company</h3>
-          <ul>
+          <ul className="footer__container-sections_list">
             <li>
               <a href="#">About</a>
             </li>
@@ -36,7 +38,7 @@ const Footer = () => {
         </Col>
         <Col className="col-md-2 text-left">
           <h3>Region</h3>
-          <ul>
+          <ul className="footer__container-sections_list">
             <li>
               <a href="#">Indonesia</a>
             </li>
@@ -51,9 +53,9 @@ const Footer = () => {
             </li>
           </ul>
         </Col>
-        <Col className="col-md-2 text-center">
+        <Col className="col-md-2 text-left">
           <h3>Help</h3>
-          <ul>
+          <ul className="footer__container-sections_list">
             <li>
               <a href="#">Help center</a>
             </li>

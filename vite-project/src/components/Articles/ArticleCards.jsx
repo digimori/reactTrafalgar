@@ -11,7 +11,7 @@ const ArticleCards = ({ image, title, desc }) => {
         <Card.Text>{desc}</Card.Text>
         <a href="#" style={{ textDecoration: "none" }}>
           Read more
-          <span>
+          <span style={{ paddingLeft: "10px" }}>
             <FaArrowRightLong />
           </span>
         </a>
