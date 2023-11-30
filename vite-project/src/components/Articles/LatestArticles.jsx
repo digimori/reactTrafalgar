@@ -28,7 +28,7 @@ const articleInfo = [
 
 const LatestArticles = () => {
   return (
-    <Container className="mt-5">
+    <Container className="my-5">
       <Row className="justify-content-center align-items-center">
         <h2 className="text-center">Check out our latest articles</h2>
       </Row>
