@@ -6,16 +6,16 @@ import Col from "react-bootstrap/Col";
 
 const Carousel = ({ icon, person, personTitle, review }) => {
   return (
-    <Container>
-      <Row className="align-items-baseline">
-        <Col style={{}}>
+    <Container style={{ margin: "35px 50px" }}>
+      <Row className="d-flex align-items-center">
+        <Col className="col-md-2">
           <img src={icon} className="review__circle" />
         </Col>
-        <Col>
+        <Col className="col-md-4 text-white">
           <h3>{person}</h3>
           <p>{personTitle}</p>
         </Col>
-        <Col>
+        <Col className="col-md-5 text-white">
           <p>{review}</p>
         </Col>
       </Row>

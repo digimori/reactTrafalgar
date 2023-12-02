@@ -3,17 +3,19 @@
   height: 425px;
   border-radius: 24px;
   background: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  margin: 130px auto;
 }
 
 .review__circle {
   height: 141px;
   width: 141px;
+  border: 4px solid #ffffff;
   border-radius: 50%;
 }
 
 ul.slick-dots {
   position: absolute;
-  bottom: -120px;
+  bottom: -140px;
   display: block;
 }
 

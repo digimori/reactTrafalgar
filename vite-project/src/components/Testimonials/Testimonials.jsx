@@ -22,8 +22,8 @@ const Testimonials = () => {
 
   return (
     <Container className="testimonial__container pt-3">
-      <Row className="text-center text-white my-3">
-        <h3>What our customers are saying</h3>
+      <Row className="text-center text-white my-4">
+        <h2 className="">What our customers are saying</h2>
       </Row>
       <Row className="justify-content-center">
         <Separator
