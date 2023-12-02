@@ -19,6 +19,12 @@ ul.slick-dots {
   display: block;
 }
 
+ul.slick-dots li > button::before {
+  color: #5a98f2;
+  opacity: 0.75;
+  font-size: 12px;
+}
+
 button.slick-arrow,
 button .slick-next {
   display: none;
