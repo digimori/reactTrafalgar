@@ -1,0 +1,24 @@
+.testimonial__container {
+  width: 1120px;
+  height: 425px;
+  border-radius: 24px;
+  background: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+.review__circle {
+  height: 141px;
+  width: 141px;
+  border-radius: 50%;
+}
+
+ul.slick-dots {
+  position: absolute;
+  bottom: -120px;
+  display: block;
+}
+
+button.slick-arrow,
+button .slick-next {
+  display: none;
+  visibility: hidden;
+}

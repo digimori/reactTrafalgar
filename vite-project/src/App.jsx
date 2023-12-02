@@ -3,7 +3,7 @@ import "./App.css";
 import OurServices from "./components/Services/OurServices";
 import LeadingProviders from "./components/LeadingProviders/LeadingProviders";
 import DownloadMobApp from "./components/DownloadMobileApp/DownloadMobApp";
-import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/Testimonials/Testimonials";
 import LatestArticles from "./components/Articles/LatestArticles";
 import Footer from "./components/Footer/Footer";
 import NavigationBar from "./components/Navigation/NavigationBar";
