@@ -21,7 +21,7 @@ const DownloadMobApp = () => {
           </p>
           <DefaultButton text="Download" icons={<FaArrowDownLong />} />
         </Col>
-        <Col className="col-md-6 offset-2">
+        <Col className="col-md-6">
           <img src={sectionimg2} alt="section image" className="sectionimg2" />
         </Col>
       </Row>
