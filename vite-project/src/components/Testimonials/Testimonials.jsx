@@ -21,7 +21,7 @@ const Testimonials = () => {
   };
 
   return (
-    <Container className="testimonial__container pt-3">
+    <Container id="testimonials" className="testimonial__container pt-3">
       <Row className="text-center text-white my-4">
         <h2 className="">What our customers are saying</h2>
       </Row>

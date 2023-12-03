@@ -7,9 +7,9 @@ import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <Container fluid className="footer__container">
+    <Container className="footer__container">
       <Row className="pt-5">
-        <Col className="col-md-5 my-3 px-5">
+        <Col className="col-12 col-md-5 my-3">
           <img src={logo} alt="logo" />
           <p className="p__muli text-white">
             Trafalgar provides progressive, and affordable healthcare,
@@ -19,24 +19,24 @@ const Footer = () => {
             ©Trafalgar PTY LTD 2020. All rights reserved
           </p>
         </Col>
-        <Col className="col-md-3 text-left footer__container-sections">
+        <Col className="col-6 col-md-3 text-left footer__container-sections">
           <h3>Company</h3>
           <ul className="footer__container-sections_list">
             <li>
-              <a href="#">About</a>
+              <a href="#aboutus">About</a>
             </li>
             <li>
-              <a href="#">Testimonials</a>
+              <a href="#testimonials">Testimonials</a>
             </li>
             <li>
-              <a href="#">Find a doctor</a>
+              <a href="#find">Find a doctor</a>
             </li>
             <li>
-              <a href="#">Apps</a>
+              <a href="#apps">Apps</a>
             </li>
           </ul>
         </Col>
-        <Col className="col-md-2 text-left">
+        <Col className="col-3 col-md-2 text-left">
           <h3>Region</h3>
           <ul className="footer__container-sections_list">
             <li>

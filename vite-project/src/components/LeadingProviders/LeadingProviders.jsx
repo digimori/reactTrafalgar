@@ -8,7 +8,7 @@ import Separator from "../Separator";
 
 const LeadingProviders = () => {
   return (
-    <Container style={{ margin: "60px auto" }}>
+    <Container id="find" style={{ margin: "60px auto" }}>
       <Row className="justify-content-center">
         <Col className="col-lg-5 col-12">
           <img src={sectionimg1} alt="section image" className="illustImg" />

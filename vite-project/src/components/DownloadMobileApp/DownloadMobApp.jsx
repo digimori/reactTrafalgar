@@ -9,7 +9,11 @@ import { FaArrowDownLong } from "react-icons/fa6";
 
 const DownloadMobApp = () => {
   return (
-    <Container className="flex__center" style={{ margin: "100px auto" }}>
+    <Container
+      id="apps"
+      className="flex__center"
+      style={{ margin: "100px auto" }}
+    >
       <Row className="justify-content-center">
         <Col className="col-lg-4 col-12">
           <h2 className="h2__muli">Download our mobile apps</h2>

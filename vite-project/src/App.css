@@ -34,20 +34,12 @@
 /* Images */
 
 /* Header image */
-.header__img {
-  width: 693px;
-  height: 598px;
-  top: 177px;
-  left: 744px;
-}
 
 /* General layout */
 .flex__center {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .top__margin {

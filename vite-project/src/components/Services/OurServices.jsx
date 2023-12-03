@@ -10,12 +10,12 @@ import DefaultButton from "../Button.jsx";
 
 const OurServices = () => {
   return (
-    <Container className="top__margin section__container">
+    <Container id="aboutus" className="top__margin section__container">
       <Row className="section__services-text">
         <h2 className="col-12 h2__muli">Our services</h2>
         <Row className="justify-content-center">
           <Separator
-            className="separator col-12"
+            className="col-12"
             style={{
               margin: "22px auto 33px auto",
             }}
