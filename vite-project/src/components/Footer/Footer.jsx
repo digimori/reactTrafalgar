@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <Container className="footer__container">
       <Row className="pt-5">
-        <Col className="col-12 col-md-5 my-3">
+        <Col className="col-12 col-md-5 col-xl-3 my-3">
           <img src={logo} alt="logo" />
           <p className="p__muli text-white">
             Trafalgar provides progressive, and affordable healthcare,

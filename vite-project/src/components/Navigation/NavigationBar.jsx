@@ -7,7 +7,12 @@ import "./NavigationBar.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="lg" className="p__muli-active" data-bs-theme="light">
+    <Navbar
+      expand="lg"
+      className="p__muli-active"
+      data-bs-theme="light"
+      style={{ top: "20px" }}
+    >
       <Container>
         <Navbar.Brand href="/">
           <img src={images.logo} alt="logo" className="nav__logo" />

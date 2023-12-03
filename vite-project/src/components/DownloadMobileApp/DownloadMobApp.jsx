@@ -15,7 +15,7 @@ const DownloadMobApp = () => {
       style={{ margin: "100px auto" }}
     >
       <Row className="justify-content-center">
-        <Col className="col-lg-4 col-12">
+        <Col className="col-lg-4 col-12 mb-5">
           <h2 className="h2__muli">Download our mobile apps</h2>
           <Separator className="separator" />
           <p className="p__muli p__padding">

@@ -33,7 +33,7 @@ const Testimonials = () => {
           }}
         />
       </Row>
-      <Row>
+      <Row className="slider__container">
         <Slider {...settings}>
           {testimonialData.map((item, index) => (
             <Carousel
