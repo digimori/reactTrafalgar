@@ -1,6 +1,4 @@
 .section__header-text {
-  width: 445px;
-  height: 338px;
   margin-right: 50px;
 }
 
@@ -13,13 +11,6 @@
   width: 200px;
   height: 56px;
   border-radius: 55px;
-}
-
-@media screen and (max-width: 706px) {
-  .section__image img {
-    width: 500px;
-    height: 431px;
-  }
 }
 
 @media screen and (max-width: 606px) {
@@ -41,9 +32,5 @@
 @media screen and (min-width: 993px) {
   .header__row {
     flex-wrap: nowrap;
-  }
-  .section__image img {
-    width: 693px;
-    height: 598px;
   }
 }

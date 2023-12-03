@@ -8,6 +8,7 @@ import LatestArticles from "./components/Articles/LatestArticles";
 import Footer from "./components/Footer/Footer";
 import NavigationBar from "./components/Navigation/NavigationBar";
 import Header from "./components/Header/Header";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (

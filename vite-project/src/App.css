@@ -62,3 +62,8 @@
 .p__padding {
   padding: 30px 5px;
 }
+
+.illustImg {
+  max-width: 100%;
+  height: auto;
+}

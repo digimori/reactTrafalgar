@@ -10,14 +10,10 @@ const LeadingProviders = () => {
   return (
     <Container style={{ margin: "60px auto" }}>
       <Row className="justify-content-center">
-        <Col className="col-md-6">
-          <img
-            src={sectionimg1}
-            alt="section image"
-            style={{ height: "431px", width: "500px" }}
-          />
+        <Col className="col-lg-5 col-12">
+          <img src={sectionimg1} alt="section image" className="illustImg" />
         </Col>
-        <Col className="col-md-6">
+        <Col className="col-lg-4 col-12">
           <h2 className="h2__muli">Leading healthcare providers</h2>
           <Separator />
           <p className="p__muli p__padding">

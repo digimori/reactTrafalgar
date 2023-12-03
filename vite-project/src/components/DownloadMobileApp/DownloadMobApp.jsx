@@ -11,7 +11,7 @@ const DownloadMobApp = () => {
   return (
     <Container className="flex__center" style={{ margin: "100px auto" }}>
       <Row className="justify-content-center">
-        <Col className="col-md-4">
+        <Col className="col-lg-4 col-12">
           <h2 className="h2__muli">Download our mobile apps</h2>
           <Separator className="separator" />
           <p className="p__muli p__padding">
@@ -21,8 +21,8 @@ const DownloadMobApp = () => {
           </p>
           <DefaultButton text="Download" icons={<FaArrowDownLong />} />
         </Col>
-        <Col className="col-md-6">
-          <img src={sectionimg2} alt="section image" className="sectionimg2" />
+        <Col className="col-lg-5 col-12">
+          <img src={sectionimg2} alt="section image" className="illustImg" />
         </Col>
       </Row>
     </Container>
